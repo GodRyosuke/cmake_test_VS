@@ -1,5 +1,6 @@
 # 実行手順
 
+## On Linux
 ```bash
 $ git clone https://github.com/GodRyosuke/cmake_test_VS.git
 $ cd cmake_test_VS
@@ -9,6 +10,19 @@ $ cmake -G "MinGW Makefiles" -S ../../ -B .
 $ cmake --build .
 $ cd cmake_test_proj
 $ cmake_test_proj.exe
+```
+
+## On Windows Visual Studio
+```bash
+$ git clone https://github.com/GodRyosuke/cmake_test_VS.git
+$ cd cmake_test_VS
+$ mkdir -p "build\Win64"
+$ cd build\Win64
+$ cmake -S ../../ -B .
+$ cmake --build .
+$ cd cmake_test_proj\Debug
+$ cmake_test_proj.exe
+$ cmake_test_proj.exe -v
 ```
 
 ## Test
