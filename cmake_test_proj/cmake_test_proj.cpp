@@ -2,11 +2,13 @@
 //
 
 #include "cmake_test_proj.h"
+#include <string>
 
-using namespace std;
 
 int main()
 {
-	cout << "Hello CMake. from wander!" << endl;
+	std::string str = "output text";
+	std::cout << str << std::endl;
+	std::cout << "Hello CMake. from wander!" << std::endl;
 	return 0;
 }
