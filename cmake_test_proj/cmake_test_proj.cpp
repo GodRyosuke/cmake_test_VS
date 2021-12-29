@@ -13,7 +13,7 @@ int main(int argc, char** argv)
             FILE* fp;
             char c;
             // resourcesから読み出していることに注意!
-            if ((fp = fopen("../resources/about.txt", "r")) == NULL) { // configファイルの読み出し
+            if ((fp = fopen("./resources/about.txt", "r")) == NULL) { // configファイルの読み出し
                 printf("file open error!!\n");
                 return 1;
             }
@@ -27,7 +27,7 @@ int main(int argc, char** argv)
 
     FILE* fp;  /* ファイルポインタの宣言 */
     char c;
-    if ((fp = fopen("../resources/hello_cmake.txt", "r")) == NULL) {  /* ファイルのオープン */
+    if ((fp = fopen("./resources/hello_cmake.txt", "r")) == NULL) {  /* ファイルのオープン */
         printf("file open error!!\n");
         return 1;
     }
