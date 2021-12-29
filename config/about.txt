@@ -1,0 +1,2 @@
+version=@cmake_test_proj_VERSION_MAJOR@.@cmake_test_proj_VERSION_MINOR@
+build=@BUILD_DATE@ @BUILD_TIME@
