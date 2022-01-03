@@ -1,7 +1,7 @@
 # 実行手順
 練習用project
 
-## On Linux
+## Linux
 ```bash
 $ git clone https://github.com/GodRyosuke/cmake_test_VS.git
 $ cd cmake_test_VS
@@ -13,7 +13,7 @@ $ cd cmake_test_proj
 $ cmake_test_proj.exe
 ```
 
-## On Windows Visual Studio
+## Windows Visual Studio
 ```bash
 $ git clone https://github.com/GodRyosuke/cmake_test_VS.git
 $ cd cmake_test_VS
